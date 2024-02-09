@@ -8,13 +8,13 @@
 ```
 
 ## The above example shows usage of the ```<img>``` element:
-* The **src** attribute is required, and contains the path to the image you want to embed.
-* The **alt** attribute holds a textual replacement for the image, which is mandatory and incredibly useful for accessibility — screen readers read the attribute value out to their users so they know what the image means. alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot.
+* The **```src```** attribute is required, and contains the path to the image you want to embed.
+* The **```alt```** attribute holds a textual replacement for the image, which is mandatory and incredibly useful for accessibility — screen readers read the attribute value out to their users so they know what the image means. alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot.
 
 ## There are many other attributes to achieve various purposes:
 * Referrer/CORS control for security and privacy: see crossorigin and referrerpolicy.
 
-* Use both **width** and **height** to set the intrinsic size of the image, allowing it to take up space before it loads, to mitigate content layout shifts.
+* Use both **```width```** and **```height```** to set the intrinsic size of the image, allowing it to take up space before it loads, to mitigate content layout shifts.
 
 * Responsive image hints with **sizes** and **srcset** (see also the ```<picture>``` element and our Responsive images tutorial).
 
