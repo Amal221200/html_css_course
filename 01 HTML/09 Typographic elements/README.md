@@ -19,3 +19,4 @@ Formatting elements were designed to display special types of text:
 | **`<sup>`**               | Superscript text           |
 | **`<q>`**                 | Quoted text                |
 | **`<abbr title="data">`** | Abbreviation text          |
+| **`<code>`** | Code Text          |
